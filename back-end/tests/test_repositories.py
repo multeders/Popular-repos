@@ -32,7 +32,7 @@ async def test_get_popular_repositories_with_cache(mock_redis):
     mock_redis.get.return_value = '{"data": [{"id": 1, "name": "test-repo"}]}'
 
     # Act
-    response = client.get("/repositories/popular?date=01.01.2021&limit=10")
+    response = client.get("/repositories/popular?date=2020-01-01&limit=10")
 
     # Assert
     assert response.status_code == 200
@@ -63,7 +63,7 @@ def test_get_popular_repositories_no_cache(mock_redis, mock_requests):
     )
 
     # Act
-    response = client.get("/repositories/popular?date=01.01.2021&limit=5")
+    response = client.get("/repositories/popular?date=2020-01-01&limit=5")
 
     # Assert
     assert response.status_code == 200

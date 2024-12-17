@@ -1,6 +1,6 @@
 # Popular Repos
 
-This project provides a web interface to fetch and display the most popular repositories from GitHub. The application is built for performance and scalability.
+This project provides a web interface to fetch and display the most popular repositories from GitHub.
 
 ---
 
@@ -27,6 +27,7 @@ This project provides a web interface to fetch and display the most popular repo
 4. **Access the Website: Open your browser and go to**:
    ```bash
    http://localhost:3000
+
 
 ---
 

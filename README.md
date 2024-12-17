@@ -16,7 +16,7 @@ This project provides a web interface to fetch and display the most popular repo
 
 1. **Clone the Repository**:
    ```bash
-   git pull
+   git clone https://github.com/multeders/Popular-repos.git
 2. **Navigate to the Project Directory**:
    ```bash
    cd Popular_repos

@@ -6,3 +6,4 @@ aioredis==2.0.1
 redis
 pytest 
 pytest-asyncio 
+pydantic
